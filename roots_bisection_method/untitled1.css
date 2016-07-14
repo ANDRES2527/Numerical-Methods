@@ -1,0 +1,192 @@
+/* CSS Document */
+
+body {
+	background-color: #FFFFCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+}
+
+td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: green;
+    color: white;
+	font-size: 12px;
+	line-height: 24px;
+	color: #330000;
+}
+ul {color:#666633}
+a {
+	color:#00FF66;
+}
+
+form {
+	background-color: #669900;
+	background:fixed;
+}
+
+
+
+table, th, td,select {
+	border-collapse: collapse;
+    border: 7px solid #CCFF33;
+	background:#33CC66;
+	font-family:"Magneto"; 
+	font-size:14px;
+	color:#0000CC;
+}
+input[type="text"] {
+  display: block;
+  margin: 1;
+  color:#0000CC;
+  background:#CCCC66;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 15px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+input[type="submit"]  {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Magneto";
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+input[type="text"]:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 30px;
+  background-color: #990000; color: #FFFF66;
+}
+
+.subtitle {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+  color: #660000; font-style: oblique;
+}
+
+.header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	background-color: #990000;
+  color: #FFFF66;
+}
+
+.nav {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #CCCC66;
+}
+
+.navLink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #DEDECA;
+}
+a:hover {
+	color: #DEDECA;
+	background-color: #330000;
+}
+
+.sidebar {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 3px;
+	background-color: #FFFF99;
+}
+
+.sidebarHeader {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFF99;
+	background-color: #999933;
+ font-weight: bold;
+}
+
+.sidebarFooter {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 18px;
+	background-color: #FFFF99;
+ color: #990000;
+}
+
+.footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 22px;
+	color: #333333;
+	background-color: #FFFF99;
+}
+
+.legal {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #333333;
+}
+
+.box1 {
+	border-width: 2px;
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+  border-style: dotted;
+	}
+
+.promo {
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+}
+
+.titlebar {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	background-color: #336699;
+}
+
+.dingbat {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #CCCC99;
+ color: #660000; font-weight: bolder; font-size: medium;
+}
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}
+
